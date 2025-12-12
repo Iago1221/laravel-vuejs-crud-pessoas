@@ -6,6 +6,10 @@ use App\Domain\Pessoa\Pessoa;
 use App\Domain\Pessoa\PessoaAlreadyExistsException;
 use App\Domain\Pessoa\PessoaTipo;
 
+/**
+ * @since 11/12/2025
+ * @author Iago Oliveira <prog.iago.oliveira@gmail.com>
+ */
 class CreatePessoa extends PessoaApp
 {
     public function execute(string $nome, string $tipo, string $documento, string $telefone, string $email): Pessoa

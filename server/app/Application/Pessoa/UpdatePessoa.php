@@ -5,6 +5,10 @@ namespace App\Application\Pessoa;
 use App\Domain\Pessoa\Pessoa;
 use App\Domain\Pessoa\PessoaNotFoundException;
 
+/**
+ * @since 11/12/2025
+ * @author Iago Oliveira <prog.iago.oliveira@gmail.com>
+ */
 class UpdatePessoa extends PessoaApp
 {
     public function execute(int $id, ?string $nome, ?string $telefone, ?string $email): Pessoa
